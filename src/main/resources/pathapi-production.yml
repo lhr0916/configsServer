@@ -1,0 +1,13 @@
+
+client_features:
+        bd:
+            dt:
+                enabled: False
+                premium_enabled: False
+                promotion_enabled: False
+                roaming_popup: False
+        client_sms_invites_enabled: False
+        client_sms_invites_multiple_enabled: False
+        facebook_signup_enabled: False
+        feed:
+            previews_enabled: False
