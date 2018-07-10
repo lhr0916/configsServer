@@ -1,0 +1,37 @@
+user:
+  role: root
+
+welcome:
+  message: i am root.properties of root
+
+---
+spring:
+  profiles: dev
+
+user:
+  role: developer
+
+welcome:
+  message: i am dev.properties
+
+---
+
+spring:
+  profiles: stage
+
+user:
+  role: developer
+
+welcome:
+  message: i am stage.properties
+
+---
+
+spring:
+  profiles: production
+
+user:
+  role: developer
+
+welcome:
+  message: i am production.properties
